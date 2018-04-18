@@ -40,7 +40,7 @@
 
 <!-- start:主体
 	========================================================================= -->
-<iframe id="iframe-content" class="iframe-content" src="1home.html" name="iframe1" frameborder="0" onload="this.height=iframe1.document.body.scrollHeight" allowfullscreen></iframe>
+<iframe id="iframe-content"  class="iframe-content" src="1home.html" name="iframe1" frameborder="0" onload="this.height=iframe1.document.body.scrollHeight" allowfullscreen></iframe>
 <!-- /. end:主体
 	========================================================================= -->
 
@@ -103,6 +103,11 @@
 <!-- /. end:页脚结束
 	========================================================================= -->
 <!--jquery-->
+<script>
+    function getIfrH(height){
+        $("#iframe-content").height(height);
+    }
+</script>
 <script src="js/jquery-1.11.3/jquery.min.js"></script>
 <!--bootstrap-->
 <script src="js/bootstrap.min.js"></script>

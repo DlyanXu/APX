@@ -46,6 +46,10 @@ body {
     line-height: 24px;
 }
 /* -------------------------- PRELOADER STARTS ------------------ */
+.container{
+    padding: 15px 15px !important;
+}
+
 
 #preloader {
     position: fixed;
@@ -168,7 +172,7 @@ body {
 .navbar-brand {
     float: left;
     height: auto;
-    padding: 18px 15px;
+    padding: 7px 0 0 0;
     font-size: 18px;
     line-height: 20px;
 }
@@ -200,6 +204,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: normal;
+    font-family: "Microsoft YaHei UI";
 }
 .navbar-default .navbar-nav > li a i {
     font-size: 20px;
@@ -6433,15 +6438,16 @@ footer .white-row ul.social-icons li:hover {
     background-attachment: fixed;
     background-image: url(../images/parallax/1.jpg);
     background-repeat: repeat-y;
-    background-position: 50% 0;
+    background-position: 50% 0 !important;
     background-size: cover;
 }
 .parallax-2 {
     background-attachment: fixed;
     background-image: url(../images/bk.jpg);
     background-repeat: repeat-y;
-    background-position: 50% 0;
+    background-position: 50% 0 !important;
     background-size: cover;
+
 }
 .parallax-3 {
     background-attachment: fixed;
